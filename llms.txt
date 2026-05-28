@@ -1,34 +1,23 @@
-# Meok Eu Ai Act Art 13 Ifu MCP
+# meok-eu-ai-act-art-13-ifu-mcp
 
-> EU AI Act Article 13 Instructions for Use generator - provider-side IFU + FRIA crosswalk
+> MEOK EU AI Act Article 13 Instructions for Use generator — provider-side IFU with 7 mandatory Art 13(3) elements + Art 14 oversight design + FRIA crosswalk. By MEOK AI Labs.
 
-`meok-eu-ai-act-art-13-ifu-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- generate_ifu
+- check_ifu_completeness
+- list_art_13_3_elements
+- list_art_14_oversight_measures
+- crosswalk_to_fria
+- generate_human_oversight_section
+- sign_ifu_chain
 
 ## Install
-
-```bash
+```
 pip install meok-eu-ai-act-art-13-ifu-mcp
 ```
 
-Or run without installing:
-
-```bash
-uvx meok-eu-ai-act-art-13-ifu-mcp
-```
-
-## Tools
-
-- `generate_ifu`
-- `check_ifu_completeness`
-- `list_art_13_3_elements` — Return the 7 mandatory Article 13(3) IFU content elements.
-- `list_art_14_oversight_measures` — Return the catalogue of Article 14 human-oversight measure types.
-- `crosswalk_to_fria`
-- `generate_human_oversight_section`
-- `sign_ifu_chain` — HMAC-sign the IFU + emit a publishable audit attestation.
-
 ## Links
-
-- Source: https://github.com/CSOAI-ORG/meok-eu-ai-act-art-13-ifu-mcp
 - PyPI: https://pypi.org/project/meok-eu-ai-act-art-13-ifu-mcp/
-- MEOK AI Labs: https://meok.ai
-- Council of AI: https://councilof.ai
+- Docs: https://meok.ai

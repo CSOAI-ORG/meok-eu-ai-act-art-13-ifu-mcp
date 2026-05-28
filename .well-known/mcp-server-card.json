@@ -1,0 +1,34 @@
+{
+  "name": "meok-eu-ai-act-art-13-ifu-mcp",
+  "title": "Meok Eu Ai Act Art 13 Ifu Mcp",
+  "description": "MEOK EU AI Act Article 13 Instructions for Use generator \u2014 provider-side IFU with 7 mandatory Art 13(3) elements + Art 14 oversight design + FRIA crosswalk. By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "generate_ifu"
+    },
+    {
+      "name": "check_ifu_completeness"
+    },
+    {
+      "name": "list_art_13_3_elements"
+    },
+    {
+      "name": "list_art_14_oversight_measures"
+    },
+    {
+      "name": "crosswalk_to_fria"
+    },
+    {
+      "name": "generate_human_oversight_section"
+    },
+    {
+      "name": "sign_ifu_chain"
+    }
+  ]
+}
