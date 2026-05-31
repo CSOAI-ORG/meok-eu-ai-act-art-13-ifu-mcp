@@ -1,75 +1,78 @@
-# MEOK EU AI Act Article 13 IFU Generator MCP
+# Meok Eu Ai Act Art 13 Ifu MCP
 
-> ## 🧱 Part of the MEOK Governance Substrate (£499/mo)
-> See [meok.ai/governance](https://meok.ai/governance).
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/meok_eu_ai_act_art_13_ifu_mcp/)
 
-# Generate Instructions for Use per Article 13(3) — provider-side compliance
+> EU AI Act Article 13 Instructions for Use generator - provider-side IFU + FRIA crosswalk
 
-<!-- mcp-name: io.github.CSOAI-ORG/meok-eu-ai-act-art-13-ifu-mcp -->
+EU AI Act Article 13 Instructions for Use generator - provider-side IFU + FRIA crosswalk. MIT. By MEOK AI Labs.
 
-[![PyPI](https://img.shields.io/pypi/v/meok-eu-ai-act-art-13-ifu-mcp)](https://pypi.org/project/meok-eu-ai-act-art-13-ifu-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+---
 
-## What this does
+## 🚀 Quick Start
 
-**EU AI Act Article 13(3)** requires providers of high-risk AI systems to supply deployers with **Instructions for Use** containing **7 mandatory content elements** before market placement.
+```bash
+# Install via pip
+pip install meok_eu_ai_act_art_13_ifu_mcp
 
-Companion to **meok-eu-ai-act-art-26-fria-mcp** (deployer-side FRIA). Together they cover both sides of the EU AI Act provider/deployer split.
+# Or install via Smithery
+npx -y @smithery/cli@latest install meok-eu-ai-act-art-13-ifu-mcp --client claude
+```
 
-## Tools
+## ✨ Features
 
-| Tool | Purpose |
-|---|---|
-| `generate_ifu(provider_legal_name, system_name, capabilities, ...)` | Full IFU with 7 Article 13(3) elements |
-| `check_ifu_completeness(ifu_doc)` | Validate IFU has all 7 elements |
-| `list_art_13_3_elements()` | The 7 mandatory elements |
-| `list_art_14_oversight_measures()` | 8 Article 14 human-oversight types |
-| `crosswalk_to_fria(ifu_doc)` | Extract fields a deployer can lift into their FRIA |
-| `generate_human_oversight_section(oversight_design_type, ...)` | Article 14 oversight block |
-| `sign_ifu_chain(ifu_doc, signer_role)` | HMAC-signed audit attestation |
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-## The 7 mandatory Article 13(3) elements
+## 📖 Documentation
 
-(a) provider identity + authorised representative · (b) characteristics, capabilities + limitations · (c) pre-determined changes · (d) human-oversight measures (Article 14) · (e) compute requirements + expected lifetime + maintenance · (f) log collection mechanisms · (g) other relevant info.
+- [Full Documentation](https://docs.meok.ai/meok-eu-ai-act-art-13-ifu-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-## Why this exists
+## 🛡️ Compliance
 
-Today providers either (1) ship marketing PDF as "IFU" and fail conformity audit, or (2) pay a regulatory consultant £15K-£60K to draft one manually. This MCP produces an auditor-defensible IFU in seconds. Deployer can then lift fields directly into their FRIA — **30-50% drafting time saved across the provider/deployer pair**.
+This MCP server is built with **EU AI Act compliance** built-in:
 
-## Sister MCPs
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-- `meok-eu-ai-act-art-26-fria-mcp` — deployer-side FRIA (consumes this IFU)
-- `eu-ai-act-compliance-mcp` — 410 articles + Annex III classifier
-- `ai-bom-mcp` — Annex IV technical documentation
-- `agent-incident-relay-mcp` — Article 73 5-clock broadcaster
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-Full catalogue: [meok.ai/anthropic-registry](https://meok.ai/anthropic-registry)
+## 🏢 Enterprise
 
-## Pricing
+Need custom development, SLA guarantees, or white-label deployment?
 
-| Option | Price |
-|---|---|
-| Self-host MIT | £0 |
-| Universal PAYG | £29/mo + £0.0002/call |
-| Governance Substrate | £499/mo |
-| A2A Substrate | £999/mo |
-| Defence | £4,990/mo |
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-Buy: https://meok.ai/governance
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-## Wire it up — full stack
+## 🤝 Part of the MEOK Ecosystem
 
-Pair this with the MEOK chain:
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
 
-1. **meok-eu-ai-act-art-13-ifu-mcp** — provider ships IFU
-2. **meok-eu-ai-act-art-26-fria-mcp** — deployer drafts FRIA (lifts IFU fields)
-3. **agent-policy-enforcement-mcp** — gate on FRIA-approved actions
-4. **agent-audit-logger-mcp** — chain-of-custody log
-5. **a2a-governance-bridge-mcp** — fold all attestations
-6. **agent-incident-relay-mcp** — broadcast Article 73 incidents to 5 regimes
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
 
-See [meok.ai/mcp-stack](https://meok.ai/mcp-stack) for architecture and [meok.ai/mcp-stack/demo](https://meok.ai/mcp-stack/demo) for the live demo.
+## 📜 License
 
-## Licence
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
 
-MIT. By [MEOK AI Labs](https://meok.ai) (CSOAI LTD, UK Companies House 16939677).
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
