@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Buy Pro: https://www.csoai.org/checkout
+
 MEOK EU AI Act Article 13 Instructions for Use Generator MCP
 ==============================================================
 

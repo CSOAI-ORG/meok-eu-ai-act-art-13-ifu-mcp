@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meok-eu-ai-act-art-13-ifu-mcp"
-version = "1.0.0"
+version = "1.0.3"
 description = "MEOK EU AI Act Article 13 Instructions for Use generator — provider-side IFU with 7 mandatory Art 13(3) elements + Art 14 oversight design + FRIA crosswalk. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }

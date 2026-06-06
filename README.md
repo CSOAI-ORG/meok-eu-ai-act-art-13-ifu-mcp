@@ -1,4 +1,7 @@
 # Meok Eu Ai Act Art 13 Ifu MCP
+mcp-name: io.github.CSOAI-ORG/meok-eu-ai-act-art-13-ifu-mcp
+
+# MEOK EU AI Act Article 13 IFU Generator MCP
 
 [![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
 [![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
@@ -118,3 +121,4 @@ Once configured, ask your assistant, for example:
 - "Use `generate_ifu` to …"
 - "Use `check_ifu_completeness` to …"
 - "Use `list_art_13_3_elements` to …"
+<!-- BUY-LADDER:END -->
