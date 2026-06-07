@@ -1,0 +1,86 @@
+{
+  "name": "meok-eu-ai-act-art-13-ifu-mcp",
+  "description": "MEOK EU AI Act Article 13 Instructions for Use generator \u2014 provider-side IFU with 7 mandatory Art",
+  "url": "https://proofof.ai/scorecard/meok-eu-ai-act-art-13-ifu-mcp.html",
+  "version": "1.0.3",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "generate_ifu",
+      "name": "Generate Ifu",
+      "description": "generate_ifu via meok-eu-ai-act-art-13-ifu-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_ifu_completeness",
+      "name": "Check Ifu Completeness",
+      "description": "check_ifu_completeness via meok-eu-ai-act-art-13-ifu-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_art_13_3_elements",
+      "name": "List Art 13 3 Elements",
+      "description": "list_art_13_3_elements via meok-eu-ai-act-art-13-ifu-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_art_14_oversight_measures",
+      "name": "List Art 14 Oversight Measures",
+      "description": "list_art_14_oversight_measures via meok-eu-ai-act-art-13-ifu-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "crosswalk_to_fria",
+      "name": "Crosswalk To Fria",
+      "description": "crosswalk_to_fria via meok-eu-ai-act-art-13-ifu-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_human_oversight_section",
+      "name": "Generate Human Oversight Section",
+      "description": "generate_human_oversight_section via meok-eu-ai-act-art-13-ifu-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "sign_ifu_chain",
+      "name": "Sign Ifu Chain",
+      "description": "sign_ifu_chain via meok-eu-ai-act-art-13-ifu-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

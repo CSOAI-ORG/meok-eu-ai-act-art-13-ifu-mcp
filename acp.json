@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-eu-ai-act-art-13-ifu-mcp",
+    "description": "MEOK EU AI Act Article 13 Instructions for Use generator \u2014 provider-side IFU with 7 mandatory Art",
+    "version": "1.0.3",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-eu-ai-act-art-13-ifu-mcp"
+      }
+    ],
+    "capabilities": [
+      "generate_ifu",
+      "check_ifu_completeness",
+      "list_art_13_3_elements",
+      "list_art_14_oversight_measures",
+      "crosswalk_to_fria",
+      "generate_human_oversight_section",
+      "sign_ifu_chain"
+    ]
+  }
+}
