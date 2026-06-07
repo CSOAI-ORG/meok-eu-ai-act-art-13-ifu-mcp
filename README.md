@@ -1,3 +1,5 @@
+[![MCP Scorecard: 90/100](https://img.shields.io/badge/proofof.ai-90%2F100-5b21b6)](https://proofof.ai/scorecard/meok-eu-ai-act-art-13-ifu-mcp.html)
+
 # Meok Eu Ai Act Art 13 Ifu MCP
 mcp-name: io.github.CSOAI-ORG/meok-eu-ai-act-art-13-ifu-mcp
 
