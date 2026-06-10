@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/meok-eu-ai-act-art-13-ifu-mcp",
-  "version": "1.0.0",
-  "description": "MEOK EU AI Act Article 13 Instructions for Use generator \u2014 provider-side IFU with 7 mandatory Art",
+  "version": "1.0.4",
+  "description": "MEOK EU AI Act Article 13 Instructions for Use generator — provider-side IFU with 7 mandatory Art",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/meok-eu-ai-act-art-13-ifu-mcp",
     "source": "github"
@@ -11,7 +11,7 @@
     {
       "registryType": "pypi",
       "identifier": "meok-eu-ai-act-art-13-ifu-mcp",
-      "version": "1.0.0",
+      "version": "1.0.4",
       "runtimeHint": "python",
       "transport": {
         "type": "stdio"
