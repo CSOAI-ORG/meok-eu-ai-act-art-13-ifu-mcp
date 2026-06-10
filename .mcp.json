@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-eu-ai-act-art-13-ifu-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-eu-ai-act-art-13-ifu-mcp"
+      ]
+    }
+  }
+}
