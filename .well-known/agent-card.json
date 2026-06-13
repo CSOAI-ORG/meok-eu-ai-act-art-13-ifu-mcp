@@ -1,0 +1,144 @@
+{
+  "name": "Meok Eu Ai Act Art 13 Ifu Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-eu-ai-act-art-13-ifu-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "MEOK EU AI Act Article 13 Instructions for Use generator — provider-side IFU with 7 mandatory Art 13(3) elements + Art 14 oversight design + FRIA crosswalk. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "generate_ifu",
+      "name": "Generate Ifu",
+      "description": "Generate Ifu — a tool of the meok-eu-ai-act-art-13-ifu-mcp MCP.",
+      "tags": [
+        "eu-ai-act"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "check_ifu_completeness",
+      "name": "Check Ifu Completeness",
+      "description": "Check Ifu Completeness — a tool of the meok-eu-ai-act-art-13-ifu-mcp MCP.",
+      "tags": [
+        "eu-ai-act"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_art_13_3_elements",
+      "name": "List Art 13 3 Elements",
+      "description": "List Art 13 3 Elements — a tool of the meok-eu-ai-act-art-13-ifu-mcp MCP.",
+      "tags": [
+        "eu-ai-act"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_art_14_oversight_measures",
+      "name": "List Art 14 Oversight Measures",
+      "description": "List Art 14 Oversight Measures — a tool of the meok-eu-ai-act-art-13-ifu-mcp MCP.",
+      "tags": [
+        "eu-ai-act"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "crosswalk_to_fria",
+      "name": "Crosswalk To Fria",
+      "description": "Crosswalk To Fria — a tool of the meok-eu-ai-act-art-13-ifu-mcp MCP.",
+      "tags": [
+        "eu-ai-act"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_human_oversight_section",
+      "name": "Generate Human Oversight Section",
+      "description": "Generate Human Oversight Section — a tool of the meok-eu-ai-act-art-13-ifu-mcp MCP.",
+      "tags": [
+        "eu-ai-act"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "sign_ifu_chain",
+      "name": "Sign Ifu Chain",
+      "description": "Sign Ifu Chain — a tool of the meok-eu-ai-act-art-13-ifu-mcp MCP.",
+      "tags": [
+        "eu-ai-act"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-eu-ai-act-art-13-ifu-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}

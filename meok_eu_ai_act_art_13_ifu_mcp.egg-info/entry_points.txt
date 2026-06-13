@@ -1,0 +1,2 @@
+[console_scripts]
+meok-eu-ai-act-art-13-ifu-mcp = server:main

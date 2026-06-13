@@ -1,3 +1,22 @@
+Metadata-Version: 2.4
+Name: meok-eu-ai-act-art-13-ifu-mcp
+Version: 1.0.4
+Summary: MEOK EU AI Act Article 13 Instructions for Use generator — provider-side IFU with 7 mandatory Art 13(3) elements + Art 14 oversight design + FRIA crosswalk. By MEOK AI Labs.
+Author-email: Nicholas Templeman <nicholas@meok.ai>
+License: MIT
+Project-URL: Homepage, https://meok.ai/governance
+Project-URL: Repository, https://github.com/CSOAI-ORG/meok-eu-ai-act-art-13-ifu-mcp
+Keywords: mcp,eu-ai-act,article-13,instructions-for-use,ifu,provider-compliance,meok
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business :: Financial
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mcp[cli]>=1.3.0
+Dynamic: license-file
+
 [![MCP Scorecard: 90/100](https://img.shields.io/badge/proofof.ai-90%2F100-5b21b6)](https://proofof.ai/scorecard/meok-eu-ai-act-art-13-ifu-mcp.html)
 
 # Meok Eu Ai Act Art 13 Ifu MCP
